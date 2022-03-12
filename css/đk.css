@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  background-image: url(https://asean2010.vn/wp-content/uploads/2020/04/hinh-nen-may-tinh-don-gian-4-1024x576.jpg);
+}
+h1 {
+  color: whitesmoke;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.my-form {
+  padding-top: 150px;
+  width: 440px;
+  height: 500px;
+  margin: 40px auto;
+  padding: 40px 40px;
+  box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.form-control {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.form-control input {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #cccccc;
+  font-size: 18px;
+}
+
+.btn {
+  border: 1px solid #e50914;
+  border-radius: 20px;
+  padding: 8px 16px;
+  background-color: white;
+  margin-top: 8px;
+}
+.form-btn {
+  width: 100%;
+  background: #e50914;
+  color: white;
+  font-size: 18px;
+}
+label {
+  color: #fff;
+}
+
+.textcolor {
+  color: #fff;
+  margin: 0px 0px 28px;
+}
+
+.color {
+  color: #757575;
+}
+.a {
+  color: #fff;
+  text-decoration: none;
+}
+.h1 {
+  margin-bottom: 10px;
+}
